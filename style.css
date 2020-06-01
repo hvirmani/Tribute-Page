@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe Print";
+    text-align: center;
+    font-size: 25px;
+}
+body{
+    
+}
+h1,span{
+    font-size: 35px;
+}
+.header{
+    background: yellow;
+    height:110px;
+}
+img{
+    height:600px;
+    width:800px;
+}
+.main{
+    background: black;
+    height:600px;
+}
+li{
+    display: inline;
+}
+.footer{
+    height: 200px;
+    background: yellow;
+}
