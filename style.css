@@ -1,15 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.header{
-    font-family: Segoe Print,cursive;
+
+.header {
+    font-family: Segoe Print, cursive;
     text-align: center;
     background: yellow;
 }
-h1{
+
+h1 {
     font-size: 35px;
 }
+
 .gallery {
     border: 1px solid #ccc;
 }
@@ -22,65 +25,77 @@ h1{
     width: 100%;
     height: auto;
 }
-.desc{
+
+.desc {
     font-size: 12px;
     font-family: Segoe Script;
     padding-bottom: 10px;
     text-align: center;
     font-weight: 1000;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
+
 .responsive {
-  padding: 10px 5px;
-  float: left;
-  width: 24.99999%;
+    padding: 10px 5px;
+    float: left;
+    width: 24.99999%;
 }
+
 @media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 0;
-  }
+    .responsive {
+        width: 49.99999%;
+        margin: 0;
+    }
 }
+
 @media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
+    .responsive {
+        width: 100%;
+    }
 }
-.clearfix{
+
+.clearfix {
     content: "";
     clear: both;
 }
-span{
-    font-size:40px;
+
+span {
+    font-size: 40px;
     font-weight: 1000;
 }
-.info{
-    background:#015249;
-    color:white;
-    padding:50px 30px 50px 50px;
+
+.info {
+    background: #015249;
+    color: white;
+    padding: 50px 30px 50px 50px;
     text-align: justify;
-    font-family: Bradley Hand ITC,cursive;
+    font-family: Bradley Hand ITC, cursive;
     font-weight: 1000;
 }
-.quote{
+
+.quote {
     /*background:#771120;*/
     background: black;
-    color:white;
-    padding:50px 30px 50px 20px;
+    color: white;
+    padding: 50px 30px 50px 20px;
 }
-blockquote{
+
+blockquote {
     font-family: INK FREE;
-    border-left:5px solid white;
-    padding-left:30px;
+    border-left: 5px solid white;
+    padding-left: 30px;
 }
-cite{
-    color:orange;
+
+cite {
+    color: orange;
     font-family: Segoe Script;
     font-size: 14px;
 }
-h2{
+
+h2 {
     margin: 15px;
     font-size: 30px;
     font-family: Ink Free;
