@@ -1,32 +1,87 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Segoe Print";
-    text-align: center;
-    font-size: 25px;
-}
-body{
-    
-}
-h1,span{
-    font-size: 35px;
 }
 .header{
+    font-family: Segoe Print,cursive;
+    text-align: center;
     background: yellow;
-    height:110px;
 }
-img{
-    height:600px;
-    width:800px;
+h1{
+    font-size: 35px;
 }
-.main{
+.gallery {
+    border: 1px solid #ccc;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.desc{
+    font-size: 12px;
+    font-family: Segoe Script;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 1000;
+}
+*{
+    box-sizing: border-box;
+}
+.responsive {
+  padding: 10px 5px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix{
+    content: "";
+    clear: both;
+}
+span{
+    font-size:30px;
+    font-weight: 1000;
+}
+.info{
+    background:#015249;
+    color:white;
+    padding:50px 30px 50px 50px;
+    text-align: justify;
+    font-family: Bradley Hand ITC,cursive;
+    font-weight: 1000;
+}
+.quote{
+    /*background:#771120;*/
     background: black;
-    height:600px;
+    color:white;
+    padding:50px 30px 50px 20px;
 }
-li{
-    display: inline;
+blockquote{
+    font-family: INK FREE;
+    border-left:5px solid white;
+    padding-left:30px;
 }
-.footer{
-    height: 200px;
-    background: yellow;
+cite{
+    color:orange;
+    font-family: Segoe Script;
+    font-size: 14px;
+}
+h2{
+    margin: 15px;
+    font-size: 30px;
+    font-family: Ink Free;
 }
