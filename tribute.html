@@ -8,11 +8,34 @@
     
 </head>
 
-<body>
-    <!--Cricketers-->
-    
-    <div id="cricketers" >
-        <div id="msd" style="display:none;">
+<body onload="typeWriter();">
+    <div class="inv">
+        <div class="head">
+            <h4>Tribute Page</h4>
+        </div>
+        <div class="para">
+            <p id="demo"></p>
+
+        </div>
+        <div class="slideshow">
+            <div class="slide fade">
+                <a><button onclick="display(1);"><img src="images/2.jpg" style="width:100%;"></button></a>
+            </div>
+            <div class="slide fade">
+                <a><button onclick="display(0);"><img src="images/1.jpg" style="width:100%;"></button></a>
+            </div>
+            <div class="slide fade">
+                <a><button onclick="display(2);"><img src="images/3.jpg" style="width:100%;"></button></a>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="appear(0);"></span>
+                <span class="dot" onclick="appear(1);"></span>
+                <span class="dot" onclick="appear(2);"></span>
+            </div>
+        </div>
+    </div>
+    <div id="cricketers">
+        <div id="0" style="display:none;">
             <div class="header">
                 <h1>Mahendra Singh Dhoni</h1>
                 Only captain in the history of Cricket to win all ICC trophies.
@@ -86,7 +109,7 @@
                 </div>
                 <div class="responsive">
                     <div class="gallery">
-                        <img src="images/msd/1.15.jpg"s width="600" height="400">
+                        <img src="images/msd/1.15.jpg" s width="600" height="400">
                         <div class="desc"></div>
                     </div>
                 </div>
@@ -204,7 +227,7 @@
             </ul>
         </div>-->
         </div>
-        <div id="srt" style="display: block;">
+        <div id="1" style="display: none;">
             <div class="header">
                 <h1>Sachin Ramesh Tendulkar</h1>
                 God Of Cricket
@@ -415,10 +438,10 @@
                 <br>
             </div>
         </div>
-        <div id="abd" style="display: none;">
+        <div id="2" style="display: none;">
             <div class="header">
                 <h1>AB de Villiers</h1>
-                Mr. 360° 
+                Mr. 360°
             </div>
             <div class="main">
                 <div class="responsive">
@@ -597,16 +620,7 @@
             </div>
         </div>
     </div>
-    
-    <!--
-    <input type="button" value="+" onclick="appear();">
-    <script>
-        function appear(){
-           
-           document.getElementById('msd').style.display="none"; document.getElementById('srt').style.display="none"; document.getElementById('msd').style.display="block";
-                   //document.getElementsByClassName('srt').style.display="none"; 
-         alert(7);}
-    </script>-->
+    <script src="file.js"></script>
 </body>
 
 </html>
